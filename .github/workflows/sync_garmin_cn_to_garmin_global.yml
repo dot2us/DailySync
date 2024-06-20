@@ -6,6 +6,7 @@ on:
     #  每6小时检查一次
     - cron: "0 23 * * *"
     - cron: "0 9 * * *"
+    # - cron: 0 */12 * * *
   push:
     branches:
       - main
